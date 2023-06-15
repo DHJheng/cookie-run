@@ -26,6 +26,7 @@ void menu_process(ALLEGRO_EVENT event){
     }
 }
 void menu_draw(){
+    
     al_clear_to_color(al_map_rgb(100,0,0));   // al_clear_to_color(al_map_rgb(100,100,100));
 
     al_draw_text(font, al_map_rgb(255,255,255), WIDTH/2, HEIGHT/2+220 , ALLEGRO_ALIGN_CENTRE, "Play");
