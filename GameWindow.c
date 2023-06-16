@@ -87,14 +87,14 @@ void game_update(){
                 window = 2; // play
             } else if( menu_button_type == 2 ) {
                 // not back menu anymore, therefore destroy it
-                menu_destroy();
+                //menu_destroy();
                 // initialize next scene
                 //game_scene_init();
                 judge_next_window = false;
                 window = 3; // store
             } else if( menu_button_type == 3 ) {
                 // not back menu anymore, therefore destroy it
-                menu_destroy();
+                //menu_destroy();
                 // initialize next scene
                 intro_scene_init();
                 judge_next_window = false;
